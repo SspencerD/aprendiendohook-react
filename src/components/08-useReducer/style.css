@@ -1,0 +1,27 @@
+body{
+    padding: 50px;
+}
+
+p{
+    cursor: pointer;
+    margin: 0 px;
+}
+
+h1{
+    align-items: center;
+}
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.badge{
+    padding-right:  -10px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.complete{
+    text-decoration: line-through;
+}
