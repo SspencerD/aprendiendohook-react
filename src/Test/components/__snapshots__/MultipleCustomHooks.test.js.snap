@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <MultipleCustomHooks/> debe de mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    Personajes de BreakingBad
+  </h1>
+  <hr />
+  <div
+    className="alert alert-warning"
+  >
+    Cargando...
+  </div>
+  <button
+    className="btn btn-outline-info"
+    onClick={[Function]}
+  >
+     Siguiente Autor
+  </button>
+</div>
+`;

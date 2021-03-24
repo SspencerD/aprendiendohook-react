@@ -26,28 +26,30 @@ export const useFetch = (url) => {
             .then(resp => resp.json())
             .then(data => {
 
-                
-
-                    if (isMounted.current) {
 
 
-                        setstate({
-                            loading: false,
-                            error: null,
-                            data
-                        })
-
-                    }
-
-               
+                if (isMounted.current) {
 
 
+                    setstate({
+                        loading: false,
+                        error: null,
+                        data
+                    })
 
-
+                }
+            })
+            .catch(() => {
+                setstate({
+                    loading: false,
+                    error: ' no se pudo cargar la data',
+                    data: null
+                });
 
 
 
             });
+
 
     }, [url])
 

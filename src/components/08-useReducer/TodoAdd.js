@@ -39,7 +39,7 @@ export const TodoAdd = ({handleAddTodo}) => {
                     type="text"
                     name="description"
                     placeholder="Aprender algo..."
-                    autocomplete="off"
+                    autoComplete="off"
                     value={description}
                     onChange={handleinputChange}
                 />

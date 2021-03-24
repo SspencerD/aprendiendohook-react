@@ -18,7 +18,7 @@ export const LoginPage = () => {
             onClick={() => setUser( {id:123,
                 name:'Santiago',
                 lastname:'Spencer',
-                email: 'sspencer@recneps.cl'})
+               email: 'sspencer@recneps.cl'})
              }
             >
                 Login

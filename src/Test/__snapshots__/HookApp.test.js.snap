@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test en Componente principal HookApp Debe enviar el componente dentro del snap 1`] = `
+<div>
+  <h1>
+     Hola mundo
+  </h1>
+</div>
+`;
+
